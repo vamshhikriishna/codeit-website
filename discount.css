@@ -1,0 +1,21 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.body{
+    background-color:#f5f7f9;
+}
+.discount{
+    background-color:#f5f7f9;
+}
+.card{
+    background-color: #f5f7f9;
+    border: 2px solid rgb(228, 225, 225);
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    .content,li{
+        font-size: large;
+    }
+}

@@ -1,0 +1,38 @@
+h1{
+    color: rgb(126, 126, 169);
+    font-size: 5rem;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    font-weight: bold;
+    color: rgb(120, 105, 105);
+}
+input[type=text]{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 2px;
+    border-style: inline;
+
+}
+input[type=email]{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 2px;
+    border-style: inline;
+}
+input[type=button]{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 2px;
+    width: 150px;
+    background-color: rgb(185, 94, 109);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}

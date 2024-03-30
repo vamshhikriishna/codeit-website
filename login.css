@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-color-for-login-page{
+    background-color: rgb(242, 232, 232);
+    height:100%
+}
+.login-page{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.field-set{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+    border-style:outset;
+    margin: 30px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.for-check-box{
+    display: flex;
+    flex-direction: row;
+    padding: 12px,20px;
+}
+.for-check-box > input{
+    margin-top: 18px;
+}
+.for-check-box > label{
+    margin-left: 10px;
+}
+.lost-your-password{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: blue;
+}
+
+.field-set > button{
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(238, 101, 124);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+/*.button-onclick{
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(238, 101, 124);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}*/
+.for-sign-up{
+    display: flex;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.ending{
+    background-color: rgb(54, 54, 187);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.part-1{
+    background-color: rgb(54, 54, 187);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-left: 0px;
+}
+
+.part-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.facebook, .instagram , .twitter , .linkedin , .youtube{
+    padding: 10px;
+} 
+.part-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.g , .gp , .cr , .ip{
+    padding: 10px;
+}
+.for-copy-right{
+    background-color: rgb(54, 54, 187) ;
+    color: white;
+    padding: 20px;
+}

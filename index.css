@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-item>.nav-link:hover{
+    color: red !important; 
+    border-bottom: 2px solid red;
+    transition: all 1s ease-in-out;
+}
+.free-account{
+    text-decoration: none;
+    color: white;
+}
+
+.card-body{
+    color: white !important;
+}
+
+.card:hover{
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    to{
+        transform: scale(1.1, 1.1);
+    }
+}
+.frontend-lang:hover{
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    to{
+        transform: scale(1.5, 1.5);
+    }
+}
+.checkpoints:hover{
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    to{
+        transform: scale(1.2, 1.2);
+    }
+}
+/*---------------------------------------------------------------------*/
+/*subscription part*/
+.subscription{
+    background-color: rgb(100, 100, 154);
+    margin-top: 50px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    color: white;   
+}
+.sub-part-1 > p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12px;
+}
+.sub-mail{
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.sub-button{
+    padding: 12px 20px;
+    color: white !important; 
+    background-color: rgb(129, 129, 155);
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+}
+.sub-button>a:hover{
+    color: red !important; 
+    transition: all 1s ease-in-out;
+}
+/*end part---------------------------------------------------------*/
+.list-item>a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.list-item>i{
+    color: white;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+.list-item>a:hover{
+    color: red !important; 
+    border-bottom: 2px solid red;
+    transition: all 1s ease-in-out;
+}
+.for-copy-right{
+    background-color: rgb(54, 54, 187) ;
+    color: white;
+    padding: 20px;
+}
